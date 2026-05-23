@@ -1,0 +1,6 @@
+{
+  "name": "Carlos Landscaping",
+  "description": "Luxury garden design, living structures, project portfolio, plant finder, cost calculator, and smart AI design consultation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

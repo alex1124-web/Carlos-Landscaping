@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  
+  --color-primary: #061b0e;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #1b3022;
+  --color-on-primary-container: #819986;
+  --color-secondary: #605e57;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #e3dfd6;
+  --color-on-secondary-container: #64635b;
+  --color-tertiary: #1e1608;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #342a1b;
+  --color-on-tertiary-container: #a0917c;
+  --color-background: #faf9f7;
+  --color-on-background: #1a1c1b;
+  --color-surface: #faf9f7;
+  --color-on-surface: #1a1c1b;
+  --color-surface-variant: #e3e2e0;
+  --color-on-surface-variant: #434843;
+  --color-outline: #737973;
+  --color-outline-variant: #c3c8c1;
+  
+  --shadow-luxurious: 0 20px 48px -15px rgba(6, 27, 14, 0.08);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar to match luxury dark green brand */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf9f7;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3c8c1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #737973;
+}
